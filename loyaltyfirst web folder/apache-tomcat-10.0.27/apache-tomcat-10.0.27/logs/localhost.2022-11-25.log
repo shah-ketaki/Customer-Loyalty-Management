@@ -1,0 +1,597 @@
+25-Nov-2022 21:51:40.162 SEVERE [http-nio-8080-exec-132] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/Info.jsp]
+request cannot be resolved
+15:     <body>
+16:         <!<!-- Declaration -->
+17:         <%!
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error on token ".", @ expected after this token
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/Info.jsp]
+request cannot be resolved
+15:     <body>
+16:         <!<!-- Declaration -->
+17:         <%!
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error on token ".", @ expected after this token
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert "SimpleName" to complete QualifiedName
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert "Identifier (" to complete MethodHeaderName
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+An error occurred at line: [21] in the jsp file: [/Info.jsp]
+Syntax error, insert ")" to complete MethodDeclaration
+18:         String cid = request.getParameter("cid");
+19:         Connection conn;
+20:         String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+21:         DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:         %>
+23:         
+24:         <!<!-- Service -->
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Nov-2022 21:53:11.466 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Nov-2022 21:53:11.467 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Nov-2022 21:53:16.887 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Nov-2022 21:53:16.887 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Nov-2022 21:53:16.887 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4487c0c2')
+25-Nov-2022 22:04:39.615 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Nov-2022 22:04:39.615 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Nov-2022 22:04:44.203 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Nov-2022 22:04:44.203 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Nov-2022 22:04:44.205 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@18460128')
+25-Nov-2022 22:35:26.102 SEVERE [http-nio-8080-exec-19] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [java.lang.NoClassDefFoundError: javax/servlet/jsp/tagext/TagLibraryValidator] with root cause
+	java.lang.ClassNotFoundException: javax.servlet.jsp.tagext.TagLibraryValidator
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1449)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2510)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:877)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1413)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+		at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+		at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2510)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:877)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1413)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.createValidator(TagLibraryInfoImpl.java:355)
+		at org.apache.jasper.compiler.TagLibraryInfoImpl.<init>(TagLibraryInfoImpl.java:195)
+		at org.apache.jasper.compiler.Parser.parseTaglibDirective(Parser.java:429)
+		at org.apache.jasper.compiler.Parser.parseDirective(Parser.java:487)
+		at org.apache.jasper.compiler.Parser.parseElements(Parser.java:1444)
+		at org.apache.jasper.compiler.Parser.parse(Parser.java:138)
+		at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:245)
+		at org.apache.jasper.compiler.ParserController.parse(ParserController.java:106)
+		at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:206)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:391)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Nov-2022 22:35:55.341 SEVERE [http-nio-8080-exec-20] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/Transactions.jsp]
+Connection cannot be resolved to a type
+15:         <%
+16:             try{
+17:                 String cid = request.getParameter("cid");
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+
+
+An error occurred at line: [20] in the jsp file: [/Transactions.jsp]
+DriverManager cannot be resolved
+17:                 String cid = request.getParameter("cid");
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+
+
+An error occurred at line: [21] in the jsp file: [/Transactions.jsp]
+DriverManager cannot be resolved
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+
+
+An error occurred at line: [23] in the jsp file: [/Transactions.jsp]
+ResultSetMetaData cannot be resolved to a type
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+
+
+An error occurred at line: [23] in the jsp file: [/Transactions.jsp]
+rs cannot be resolved
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+
+
+An error occurred at line: [24] in the jsp file: [/Transactions.jsp]
+Statement cannot be resolved to a type
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+27:                 {
+
+
+An error occurred at line: [25] in the jsp file: [/Transactions.jsp]
+ResultSet cannot be resolved to a type
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+27:                 {
+28:                     out.println("cid not found");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [18] in the jsp file: [/Transactions.jsp]
+Connection cannot be resolved to a type
+15:         <%
+16:             try{
+17:                 String cid = request.getParameter("cid");
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+
+
+An error occurred at line: [20] in the jsp file: [/Transactions.jsp]
+DriverManager cannot be resolved
+17:                 String cid = request.getParameter("cid");
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+
+
+An error occurred at line: [21] in the jsp file: [/Transactions.jsp]
+DriverManager cannot be resolved
+18:                 Connection conn;
+19:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+
+
+An error occurred at line: [23] in the jsp file: [/Transactions.jsp]
+ResultSetMetaData cannot be resolved to a type
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+
+
+An error occurred at line: [23] in the jsp file: [/Transactions.jsp]
+rs cannot be resolved
+20:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+
+
+An error occurred at line: [24] in the jsp file: [/Transactions.jsp]
+Statement cannot be resolved to a type
+21:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+27:                 {
+
+
+An error occurred at line: [25] in the jsp file: [/Transactions.jsp]
+ResultSet cannot be resolved to a type
+22:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+23:                 ResultSetMetaData rsmd = rs.getMetaData();
+24:                 Statement st = conn.createStatement();
+25:                 ResultSet rs = st.executeQuery(query);
+26:                 if (rs.next() == false)
+27:                 {
+28:                     out.println("cid not found");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Nov-2022 22:36:37.549 SEVERE [http-nio-8080-exec-21] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/Transactions.jsp]
+rs cannot be resolved
+21:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+23:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+24:                 ResultSetMetaData rsmd = rs.getMetaData();
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 if (rs.next() == false)
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/Transactions.jsp]
+rs cannot be resolved
+21:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+22:                 conn=DriverManager.getConnection(url,"kshah30" , "xaloophu");
+23:                 String query = "select T.tref, T.t_date, T.t_points, T.amount from Transactions T where T.cid="+cid;
+24:                 ResultSetMetaData rsmd = rs.getMetaData();
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 if (rs.next() == false)
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Nov-2022 22:41:40.189 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+25-Nov-2022 22:41:40.190 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+25-Nov-2022 22:41:45.837 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+25-Nov-2022 22:41:45.837 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+25-Nov-2022 22:41:45.840 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@642f9a77')
+25-Nov-2022 22:46:02.779 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/Transactions.jsp]
+Invalid character constant
+31:                 }
+32:                 else
+33:                 {
+34:                     out.println('<table border = "1">');
+35:                     out.println("<thead>");
+36:                     out.println("<tr>");
+37:                     for(int i=0;i<rsmd.getColumnCount();i++){
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/Transactions.jsp]
+Invalid character constant
+31:                 }
+32:                 else
+33:                 {
+34:                     out.println('<table border = "1">');
+35:                     out.println("<thead>");
+36:                     out.println("<tr>");
+37:                     for(int i=0;i<rsmd.getColumnCount();i++){
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+25-Nov-2022 22:48:54.335 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [51] in the jsp file: [/Transactions.jsp]
+Syntax error, insert ";" to complete BlockStatements
+48:                         String[] list = new String[rsmd.getColumnCount()];
+49:                         for(int i=0;i<rsmd.getColumnCount();i++)
+50:                         {
+51:                             out.println("<td>")
+52:                             if (rs.getObject(i+1) != null){
+53:                                 out.println("1" + (rs.getObject(i+1).toString()));
+54:                             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [51] in the jsp file: [/Transactions.jsp]
+Syntax error, insert ";" to complete BlockStatements
+48:                         String[] list = new String[rsmd.getColumnCount()];
+49:                         for(int i=0;i<rsmd.getColumnCount();i++)
+50:                         {
+51:                             out.println("<td>")
+52:                             if (rs.getObject(i+1) != null){
+53:                                 out.println("1" + (rs.getObject(i+1).toString()));
+54:                             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

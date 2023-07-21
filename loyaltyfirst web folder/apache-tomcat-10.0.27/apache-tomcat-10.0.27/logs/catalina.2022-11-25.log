@@ -1,0 +1,235 @@
+25-Nov-2022 00:09:52.235 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:09:52.260 WARNING [http-nio-8080-exec-22] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 00:09:52.664 INFO [http-nio-8080-exec-22] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:09:52.667 INFO [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:09:57.372 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:09:57.702 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:09:57.704 INFO [http-nio-8080-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:12:54.817 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:12:54.832 WARNING [http-nio-8080-exec-35] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 00:12:55.159 INFO [http-nio-8080-exec-35] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:12:55.176 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:13:00.997 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:13:01.339 INFO [http-nio-8080-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:13:01.342 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:14:52.279 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:14:52.304 WARNING [http-nio-8080-exec-41] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 00:14:52.762 INFO [http-nio-8080-exec-41] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:14:52.766 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:51:57.713 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:51:58.184 INFO [http-nio-8080-exec-50] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:51:58.184 INFO [http-nio-8080-exec-50] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:52:31.108 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:52:31.129 WARNING [http-nio-8080-exec-55] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 00:52:31.468 INFO [http-nio-8080-exec-55] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:52:31.470 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:53:43.607 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:53:44.140 INFO [http-nio-8080-exec-48] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:53:44.144 INFO [http-nio-8080-exec-48] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:53:47.202 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:53:47.549 INFO [http-nio-8080-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:53:47.551 INFO [http-nio-8080-exec-58] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:55:50.450 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:55:50.467 WARNING [http-nio-8080-exec-68] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 00:55:50.823 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:55:50.825 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 00:58:34.809 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 00:58:35.258 INFO [http-nio-8080-exec-64] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 00:58:35.260 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:04:40.011 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:04:40.339 INFO [http-nio-8080-exec-76] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:04:40.340 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:04:56.323 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:04:56.809 INFO [http-nio-8080-exec-79] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:04:56.813 INFO [http-nio-8080-exec-79] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:25:19.831 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:25:19.874 WARNING [http-nio-8080-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 01:25:20.296 INFO [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:25:20.299 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:25:22.668 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:25:22.997 INFO [http-nio-8080-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:25:22.999 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:31:05.835 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:31:05.899 WARNING [http-nio-8080-exec-101] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 01:31:06.501 INFO [http-nio-8080-exec-101] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:31:06.506 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:37:41.555 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:37:41.702 WARNING [http-nio-8080-exec-108] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 01:37:42.408 INFO [http-nio-8080-exec-108] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:37:42.415 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 01:56:24.132 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 01:56:24.493 INFO [http-nio-8080-exec-115] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 01:56:24.496 INFO [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 21:53:11.079 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2022 21:53:11.089 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 21:53:11.376 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2022 21:53:11.462 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 21:53:11.477 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 21:53:11.503 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 21:53:15.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Apache NetBeans\jdk
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+25-Nov-2022 21:53:15.170 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-10.0.27
+25-Nov-2022 21:53:15.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-10.0.27
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-10.0.27\conf\logging.properties
+25-Nov-2022 21:53:15.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-MM91H5O
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-10.0.27
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-10.0.27
+25-Nov-2022 21:53:15.189 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-10.0.27\temp
+25-Nov-2022 21:53:15.303 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+25-Nov-2022 21:53:15.304 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+25-Nov-2022 21:53:15.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+25-Nov-2022 21:53:15.610 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 21:53:15.635 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [648] milliseconds
+25-Nov-2022 21:53:15.667 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2022 21:53:15.667 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+25-Nov-2022 21:53:15.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml]
+25-Nov-2022 21:53:15.703 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/loyaltyfirst] in deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has been ignored
+25-Nov-2022 21:53:16.389 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 21:53:16.472 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has finished in [781] ms
+25-Nov-2022 21:53:16.473 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\docs]
+25-Nov-2022 21:53:16.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\docs] has finished in [24] ms
+25-Nov-2022 21:53:16.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\examples]
+25-Nov-2022 21:53:16.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\examples] has finished in [411] ms
+25-Nov-2022 21:53:16.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager]
+25-Nov-2022 21:53:16.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager] has finished in [29] ms
+25-Nov-2022 21:53:16.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\manager]
+25-Nov-2022 21:53:17.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\manager] has finished in [55] ms
+25-Nov-2022 21:53:17.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT]
+25-Nov-2022 21:53:17.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT] has finished in [50] ms
+25-Nov-2022 21:53:17.062 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 21:53:17.117 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1494] milliseconds
+25-Nov-2022 22:04:39.555 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2022 22:04:39.555 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:04:39.567 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2022 22:04:39.600 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 22:04:39.615 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:04:39.635 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:04:42.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+25-Nov-2022 22:04:42.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Apache NetBeans\jdk
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-10.0.27
+25-Nov-2022 22:04:42.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-10.0.27
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2022 22:04:42.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-10.0.27\conf\logging.properties
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-MM91H5O
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-10.0.27
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-10.0.27
+25-Nov-2022 22:04:42.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-10.0.27\temp
+25-Nov-2022 22:04:42.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+25-Nov-2022 22:04:42.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+25-Nov-2022 22:04:42.720 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+25-Nov-2022 22:04:43.033 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:04:43.055 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [539] milliseconds
+25-Nov-2022 22:04:43.095 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2022 22:04:43.095 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+25-Nov-2022 22:04:43.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml]
+25-Nov-2022 22:04:43.113 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/loyaltyfirst] in deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has been ignored
+25-Nov-2022 22:04:43.771 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 22:04:43.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has finished in [738] ms
+25-Nov-2022 22:04:43.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\docs]
+25-Nov-2022 22:04:43.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\docs] has finished in [22] ms
+25-Nov-2022 22:04:43.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\examples]
+25-Nov-2022 22:04:44.212 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\examples] has finished in [347] ms
+25-Nov-2022 22:04:44.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager]
+25-Nov-2022 22:04:44.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager] has finished in [48] ms
+25-Nov-2022 22:04:44.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\manager]
+25-Nov-2022 22:04:44.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\manager] has finished in [43] ms
+25-Nov-2022 22:04:44.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT]
+25-Nov-2022 22:04:44.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT] has finished in [30] ms
+25-Nov-2022 22:04:44.354 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:04:44.424 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1367] milliseconds
+25-Nov-2022 22:13:01.766 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 22:13:01.810 WARNING [http-nio-8080-exec-8] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 22:13:06.749 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 22:13:06.781 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 22:13:07.115 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 22:13:09.540 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 22:13:09.566 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 22:35:49.940 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] has started
+25-Nov-2022 22:35:49.973 WARNING [http-nio-8080-exec-14] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 22:35:50.502 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 22:35:50.527 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/loyaltyfirst] is completed
+25-Nov-2022 22:41:40.087 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Nov-2022 22:41:40.089 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:41:40.154 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Nov-2022 22:41:40.185 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [loyaltyfirst] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+25-Nov-2022 22:41:40.200 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:41:40.217 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:41:43.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.27
+25-Nov-2022 22:41:43.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2022 14:18:31 UTC
+25-Nov-2022 22:41:43.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.27.0
+25-Nov-2022 22:41:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+25-Nov-2022 22:41:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Nov-2022 22:41:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Nov-2022 22:41:43.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Apache NetBeans\jdk
+25-Nov-2022 22:41:43.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9
+25-Nov-2022 22:41:43.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Azul Systems, Inc.
+25-Nov-2022 22:41:43.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\apache-tomcat-10.0.27
+25-Nov-2022 22:41:43.615 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-10.0.27
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Nov-2022 22:41:43.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\apache-tomcat-10.0.27\conf\logging.properties
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|DESKTOP-MM91H5O
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\apache-tomcat-10.0.27
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-10.0.27
+25-Nov-2022 22:41:43.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-10.0.27\temp
+25-Nov-2022 22:41:43.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+25-Nov-2022 22:41:43.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+25-Nov-2022 22:41:43.684 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+25-Nov-2022 22:41:44.253 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:41:44.286 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1015] milliseconds
+25-Nov-2022 22:41:44.357 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Nov-2022 22:41:44.358 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.27]
+25-Nov-2022 22:41:44.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml]
+25-Nov-2022 22:41:44.384 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/loyaltyfirst] in deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has been ignored
+25-Nov-2022 22:41:45.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Nov-2022 22:41:45.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-10.0.27\conf\Catalina\localhost\loyaltyfirst.xml] has finished in [1,045] ms
+25-Nov-2022 22:41:45.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\docs]
+25-Nov-2022 22:41:45.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\docs] has finished in [27] ms
+25-Nov-2022 22:41:45.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\examples]
+25-Nov-2022 22:41:45.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\examples] has finished in [413] ms
+25-Nov-2022 22:41:45.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager]
+25-Nov-2022 22:41:45.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\host-manager] has finished in [50] ms
+25-Nov-2022 22:41:45.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\manager]
+25-Nov-2022 22:41:45.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\manager] has finished in [36] ms
+25-Nov-2022 22:41:45.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT]
+25-Nov-2022 22:41:45.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-10.0.27\webapps\ROOT] has finished in [22] ms
+25-Nov-2022 22:41:45.970 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Nov-2022 22:41:46.032 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1743] milliseconds

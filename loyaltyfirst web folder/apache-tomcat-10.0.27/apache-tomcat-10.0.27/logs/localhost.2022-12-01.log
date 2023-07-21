@@ -1,0 +1,175 @@
+01-Dec-2022 11:06:31.979 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 11:06:31.979 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 11:06:31.982 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7640a5b1')
+01-Dec-2022 12:07:45.900 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 12:07:45.900 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 12:07:50.310 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 12:07:50.310 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 12:07:50.312 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@762637be')
+01-Dec-2022 12:14:02.585 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 12:14:02.585 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 12:14:07.252 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 12:14:07.253 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 12:14:07.254 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3a082ff4')
+01-Dec-2022 13:41:40.541 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 13:41:40.541 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 13:41:45.311 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 13:41:45.311 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 13:41:45.313 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7640a5b1')
+01-Dec-2022 18:14:32.241 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 18:14:32.241 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 18:14:37.702 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 18:14:37.702 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 18:14:37.705 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@23f3da8b')
+01-Dec-2022 18:23:59.173 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 18:23:59.173 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 18:24:03.747 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 18:24:03.747 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 18:24:03.749 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4e1a46fb')
+01-Dec-2022 20:50:20.362 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error on token "int", delete this token
+35:                     
+36:                 }
+37:                 out.print(rs.getString("FAMILY_ID") +",");
+38:                 out.print(int((rs.getInt("T_POINTS"))*0.3));
+39:                 out.print("," + rs.getString("T_POINTS"));
+40:                 
+41:                 conn.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error on token "int", delete this token
+35:                     
+36:                 }
+37:                 out.print(rs.getString("FAMILY_ID") +",");
+38:                 out.print(int((rs.getInt("T_POINTS"))*0.3));
+39:                 out.print("," + rs.getString("T_POINTS"));
+40:                 
+41:                 conn.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+01-Dec-2022 20:50:37.277 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error on token "int", delete this token
+35:                     
+36:                 }
+37:                 out.print(rs.getString("FAMILY_ID") +",");
+38:                 out.print(int((rs.getInt("T_POINTS"))*0.3));
+39:                 out.print("," + rs.getString("T_POINTS"));
+40:                 
+41:                 conn.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [38] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error on token "int", delete this token
+35:                     
+36:                 }
+37:                 out.print(rs.getString("FAMILY_ID") +",");
+38:                 out.print(int((rs.getInt("T_POINTS"))*0.3));
+39:                 out.print("," + rs.getString("T_POINTS"));
+40:                 
+41:                 conn.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+01-Dec-2022 20:51:52.608 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 20:51:52.609 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 20:51:57.207 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 20:51:57.207 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 20:51:57.211 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@762637be')
+01-Dec-2022 21:23:15.385 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 21:23:15.385 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 21:23:19.969 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 21:23:19.969 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 21:23:19.971 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@23f3da8b')
+01-Dec-2022 21:24:37.787 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 21:24:37.787 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 21:24:42.465 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 21:24:42.465 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 21:24:42.468 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4b97c4ad')
+01-Dec-2022 21:25:27.425 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 21:25:27.425 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 21:25:32.082 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 21:25:32.082 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 21:25:32.100 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1305c126')
+01-Dec-2022 21:34:15.160 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+01-Dec-2022 21:34:15.160 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+01-Dec-2022 21:34:19.748 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+01-Dec-2022 21:34:19.748 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+01-Dec-2022 21:34:19.750 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58f39564')

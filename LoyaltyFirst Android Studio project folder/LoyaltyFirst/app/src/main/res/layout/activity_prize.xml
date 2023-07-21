@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prize">
+
+    <TextView
+        android:id="@+id/Pg4Title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:text="LoyaltyFirst"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/trnmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Prize ID"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/Pg4Title"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:id="@+id/transpinner1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trnmsg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/przdsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:layout_below="@id/transpinner1"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="30dp"/>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_gravity="fill_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/przdsc"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp">
+
+        <TableLayout
+            android:id="@+id/table_main3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:background="@color/black"
+            android:stretchColumns="*"
+            android:shrinkColumns="*">
+
+        </TableLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/p_back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:text="BACK"
+        />
+
+
+</RelativeLayout>

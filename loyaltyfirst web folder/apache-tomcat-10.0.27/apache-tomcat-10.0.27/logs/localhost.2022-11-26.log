@@ -1,0 +1,808 @@
+26-Nov-2022 14:06:14.453 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [20] in the jsp file: [/SupportFamilyIncrease.jsp]
+Connection cannot be resolved to a type
+17:             try{
+18:                 String tref = request.getParameter("tref");
+19:                 String cid = request.getParameter("cid");
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+
+
+An error occurred at line: [22] in the jsp file: [/SupportFamilyIncrease.jsp]
+DriverManager cannot be resolved
+19:                 String cid = request.getParameter("cid");
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+
+
+An error occurred at line: [23] in the jsp file: [/SupportFamilyIncrease.jsp]
+DriverManager cannot be resolved
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+
+
+An error occurred at line: [25] in the jsp file: [/SupportFamilyIncrease.jsp]
+Statement cannot be resolved to a type
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+
+
+An error occurred at line: [26] in the jsp file: [/SupportFamilyIncrease.jsp]
+ResultSet cannot be resolved to a type
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+29:                     out.println("<table border = '1'>");
+
+
+An error occurred at line: [27] in the jsp file: [/SupportFamilyIncrease.jsp]
+ResultSetMetaData cannot be resolved to a type
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+29:                     out.println("<table border = '1'>");
+30:                     out.println("<thead>");
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [20] in the jsp file: [/SupportFamilyIncrease.jsp]
+Connection cannot be resolved to a type
+17:             try{
+18:                 String tref = request.getParameter("tref");
+19:                 String cid = request.getParameter("cid");
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+
+
+An error occurred at line: [22] in the jsp file: [/SupportFamilyIncrease.jsp]
+DriverManager cannot be resolved
+19:                 String cid = request.getParameter("cid");
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+
+
+An error occurred at line: [23] in the jsp file: [/SupportFamilyIncrease.jsp]
+DriverManager cannot be resolved
+20:                 Connection conn;
+21:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+
+
+An error occurred at line: [25] in the jsp file: [/SupportFamilyIncrease.jsp]
+Statement cannot be resolved to a type
+22:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+
+
+An error occurred at line: [26] in the jsp file: [/SupportFamilyIncrease.jsp]
+ResultSet cannot be resolved to a type
+23:                 conn=DriverManager.getConnection(url,"kshah30" , "utilsooh");
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+29:                     out.println("<table border = '1'>");
+
+
+An error occurred at line: [27] in the jsp file: [/SupportFamilyIncrease.jsp]
+ResultSetMetaData cannot be resolved to a type
+24:                 String query = "select C.FAMILY_ID, T.T_POINTS from CUSTOMERS C, Transactions T where C.cid=T.cid AND T.TREF=" + tref;
+25:                 Statement st = conn.createStatement();
+26:                 ResultSet rs = st.executeQuery(query);
+27:                 ResultSetMetaData rsmd = rs.getMetaData();
+28:                 {
+29:                     out.println("<table border = '1'>");
+30:                     out.println("<thead>");
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 14:15:30.013 SEVERE [http-nio-8080-exec-22] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [33] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error, insert ";" to complete Statement
+30:                 out.println("Customer ID: " + cid + "<br>");
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from double to String
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [33] in the jsp file: [/SupportFamilyIncrease.jsp]
+Syntax error, insert ";" to complete Statement
+30:                 out.println("Customer ID: " + cid + "<br>");
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from double to String
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") +"<br>")
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 14:15:42.554 SEVERE [http-nio-8080-exec-23] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from double to String
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from double to String
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (String)(((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 14:16:03.932 SEVERE [http-nio-8080-exec-27] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [34] in the jsp file: [/SupportFamilyIncrease.jsp]
+Cannot cast from String to int
+31:                 out.println("Family ID of the customer " + rs.getString("FAMILY_ID") +"<br>");
+32:                 out.println("Transaction ID:" + tref + "<br>");
+33:                 out.println("Total points of the transaction: " + rs.getString("T_POINTS") + "<br>");
+34:                 out.println("Total points to be added to the Family members account: " + (((int)rs.getString("T_POINTS"))*0.3 ) + "<br>");
+35:                 
+36:                 conn.close();
+37:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 14:18:25.772 SEVERE [http-nio-8080-exec-31] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/SupportFamilyIncrease.jsp]
+conn cannot be resolved
+37:             catch(Exception e)
+38:             {
+39:                 out.println(e);
+40:                 conn.close();
+41:             }
+42:         %>
+43:     </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/SupportFamilyIncrease.jsp]
+conn cannot be resolved
+37:             catch(Exception e)
+38:             {
+39:                 out.println(e);
+40:                 conn.close();
+41:             }
+42:         %>
+43:     </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 23:34:24.587 SEVERE [http-nio-8080-exec-39] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [32] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+29:                 ResultSetMetaData rsmd = rs.getMetaData();
+30:                 while(rs.next())
+31:                 {
+32:                     out.println(rs.getString("cid") + "<br>")                   
+33:                 }
+34:                 conn.close();
+35:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [32] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+29:                 ResultSetMetaData rsmd = rs.getMetaData();
+30:                 while(rs.next())
+31:                 {
+32:                     out.println(rs.getString("cid") + "<br>")                   
+33:                 }
+34:                 conn.close();
+35:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 23:36:10.079 SEVERE [http-nio-8080-exec-42] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [32] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+29:                 ResultSetMetaData rsmd = rs.getMetaData();
+30:                 while(rs.next())
+31:                 {
+32:                     out.println(rs.getString("cid") + "<br>")                   
+33:                 }
+34:                 conn.close();
+35:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [32] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+29:                 ResultSetMetaData rsmd = rs.getMetaData();
+30:                 while(rs.next())
+31:                 {
+32:                     out.println(rs.getString("cid") + "<br>")                   
+33:                 }
+34:                 conn.close();
+35:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 23:43:47.557 SEVERE [http-nio-8080-exec-48] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/FamilyIncrease.jsp]
+Cannot cast from String to int
+19:             try{
+20:                 String cid = request.getParameter("cid");
+21:                 String FAMILY_ID = request.getParameter("fid");
+22:                 int npoints = (int)request.getParameter("npoints");
+23:                 Connection conn;
+24:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+25:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/FamilyIncrease.jsp]
+Cannot cast from String to int
+19:             try{
+20:                 String cid = request.getParameter("cid");
+21:                 String FAMILY_ID = request.getParameter("fid");
+22:                 int npoints = (int)request.getParameter("npoints");
+23:                 Connection conn;
+24:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+25:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 23:44:33.756 SEVERE [http-nio-8080-exec-45] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/FamilyIncrease.jsp]
+The method parseInt(String) is undefined for the type FamilyIncrease_jsp
+19:             try{
+20:                 String cid = request.getParameter("cid");
+21:                 String FAMILY_ID = request.getParameter("fid");
+22:                 int npoints = parseInt(request.getParameter("npoints"));
+23:                 Connection conn;
+24:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+25:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/FamilyIncrease.jsp]
+The method parseInt(String) is undefined for the type FamilyIncrease_jsp
+19:             try{
+20:                 String cid = request.getParameter("cid");
+21:                 String FAMILY_ID = request.getParameter("fid");
+22:                 int npoints = parseInt(request.getParameter("npoints"));
+23:                 Connection conn;
+24:                 String url = "jdbc:oracle:thin:@artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
+25:                 DriverManager.registerDriver(new oracle.jdbc.OracleDriver());
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Nov-2022 23:48:28.265 SEVERE [http-nio-8080-exec-47] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token "rs1", delete this token
+34:                     ResultSet rs1 = st1.executeQuery("select P.NUM_OF_POINTS from POINT_ACCOUNTS P where P.CID=" + rs.getString("cid"));
+35:                     rs1.next();
+36:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+37:                     out.println(rs.getString("cid")+ " :" rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+38:                                        
+39:                 }
+40:                 conn.close();
+
+
+An error occurred at line: [37] in the jsp file: [/FamilyIncrease.jsp]
+The method getInt(String) is undefined for the type String
+34:                     ResultSet rs1 = st1.executeQuery("select P.NUM_OF_POINTS from POINT_ACCOUNTS P where P.CID=" + rs.getString("cid"));
+35:                     rs1.next();
+36:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+37:                     out.println(rs.getString("cid")+ " :" rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+38:                                        
+39:                 }
+40:                 conn.close();
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [37] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token "rs1", delete this token
+34:                     ResultSet rs1 = st1.executeQuery("select P.NUM_OF_POINTS from POINT_ACCOUNTS P where P.CID=" + rs.getString("cid"));
+35:                     rs1.next();
+36:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+37:                     out.println(rs.getString("cid")+ " :" rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+38:                                        
+39:                 }
+40:                 conn.close();
+
+
+An error occurred at line: [37] in the jsp file: [/FamilyIncrease.jsp]
+The method getInt(String) is undefined for the type String
+34:                     ResultSet rs1 = st1.executeQuery("select P.NUM_OF_POINTS from POINT_ACCOUNTS P where P.CID=" + rs.getString("cid"));
+35:                     rs1.next();
+36:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+37:                     out.println(rs.getString("cid")+ " :" rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+38:                                        
+39:                 }
+40:                 conn.close();
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)

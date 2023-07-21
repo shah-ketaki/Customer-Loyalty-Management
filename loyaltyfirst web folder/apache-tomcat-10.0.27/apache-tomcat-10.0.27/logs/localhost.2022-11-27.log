@@ -1,0 +1,501 @@
+27-Nov-2022 00:01:45.950 SEVERE [http-nio-8080-exec-46] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/FamilyIncrease.jsp]
+Type mismatch: cannot convert from int to boolean
+28:                 Statement st = conn.createStatement();
+29:                 ResultSet rs = st.executeQuery(query);
+30:                 ResultSetMetaData rsmd = rs.getMetaData();
+31:                 boolean flag = 1;
+32:                 while(rs.next())
+33:                 {
+34:                     Statement st1 = conn.createStatement();
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types String and int
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+
+
+An error occurred at line: [42] in the jsp file: [/FamilyIncrease.jsp]
+Type mismatch: cannot convert from int to boolean
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+
+
+An error occurred at line: [46] in the jsp file: [/FamilyIncrease.jsp]
+The operator == is undefined for the argument type(s) boolean, int
+43:                     }
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == 0){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == 0){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/FamilyIncrease.jsp]
+Type mismatch: cannot convert from int to boolean
+28:                 Statement st = conn.createStatement();
+29:                 ResultSet rs = st.executeQuery(query);
+30:                 ResultSetMetaData rsmd = rs.getMetaData();
+31:                 boolean flag = 1;
+32:                 while(rs.next())
+33:                 {
+34:                     Statement st1 = conn.createStatement();
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types String and int
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+
+
+An error occurred at line: [42] in the jsp file: [/FamilyIncrease.jsp]
+Type mismatch: cannot convert from int to boolean
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = 0;
+43:                     }
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+
+
+An error occurred at line: [46] in the jsp file: [/FamilyIncrease.jsp]
+The operator == is undefined for the argument type(s) boolean, int
+43:                     }
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == 0){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == 0){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2022 00:02:29.595 SEVERE [http-nio-8080-exec-49] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types String and int
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == false){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types String and int
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == 0)
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == false){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2022 00:03:01.415 SEVERE [http-nio-8080-exec-47] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == "0")
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == false){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error on token ")", delete this token
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) + "<br><br>") == "0")
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+An error occurred at line: [47] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+44:                     st2.executeQuery("COMMIT");                   
+45:                 }
+46:                 if(flag == false){
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+
+
+An error occurred at line: [50] in the jsp file: [/FamilyIncrease.jsp]
+Syntax error, insert ";" to complete BlockStatements
+47:                     out.println("Error updating the points")
+48:                 }
+49:                 else{
+50:                     out.println(npoints + "Points added to the members of Family ID: "+ FAMILY_ID)
+51:                 }
+52:                 conn.close();
+53:             }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2022 00:04:06.260 SEVERE [http-nio-8080-exec-52] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/loyaltyfirst] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types int and String
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) == "0")
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [40] in the jsp file: [/FamilyIncrease.jsp]
+Incompatible operand types int and String
+37:                     int np = (rs1.getInt("NUM_OF_POINTS"))+ npoints;
+38:                     out.println(rs.getString("cid")+ " :" + rs1.getInt("NUM_OF_POINTS") +  " : " + np + "<br>");
+39:                     Statement st2 = conn.createStatement();
+40:                     if(st2.executeUpdate("update POINT_ACCOUNTS PA SET PA.NUM_OF_POINTS=" + np + " where PA.CID=" + rs.getString("cid")) == "0")
+41:                     {
+42:                         flag = false;
+43:                     }
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:520)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:792)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:870)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1762)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Nov-2022 19:11:28.728 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Nov-2022 19:11:28.730 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Nov-2022 21:10:28.642 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Nov-2022 21:10:28.642 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Nov-2022 21:10:28.644 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@70972170')
+27-Nov-2022 23:11:11.522 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Nov-2022 23:11:11.522 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Nov-2022 23:17:28.881 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Nov-2022 23:17:28.881 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Nov-2022 23:17:28.885 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7640a5b1')
+27-Nov-2022 23:44:15.951 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+27-Nov-2022 23:44:15.951 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+27-Nov-2022 23:54:56.858 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+27-Nov-2022 23:54:56.858 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+27-Nov-2022 23:54:56.860 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@237f7970')
